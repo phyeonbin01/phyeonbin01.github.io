@@ -1,0 +1,68 @@
+[site]
+title = "Hyeonbin Park"
+description = "M.S. student at Seoul National University. Research interests: world models, latent action models, vision-language-action models, and world action models."
+favicon = "/favicon.svg"
+last_updated = "November 4, 2026"
+
+[author]
+name = "Hyeonbin Park"
+title = "M.S. Student in Cognitive Science"
+institution = "Biointelligence Lab, Seoul National University"
+avatar = "/avatar.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "phyeonbin01@snu.ac.kr"
+location = "Seoul, Korea"
+location_url = "https://maps.google.com/?q=Seoul+National+University"
+location_details = [
+  "Biointelligence Lab,",
+  "Seoul National University, Seoul, Korea"
+]
+linkedin = "https://www.linkedin.com/in/hyeonbin-park-1630b1304"
+# TODO: uncomment and fill in to show these icons
+# google_scholar = "https://scholar.google.com/citations?user=..."
+# github = "https://github.com/..."
+
+[features]
+# Show a like button on the about page
+enable_likes = false
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[visitor_map]
+# Visitor map from https://mapmyvisitors.com: click the map to see country/city stats.
+# Sign up, create a Map (or Globe) widget, and paste the src="..." URL from its embed code.
+# Leave empty to hide.
+script = "//mapmyvisitors.com/map.js?d=T9STGoDRb_O-7MEOOvMXDo_sA27IiR0RhZchp4JfF-Q&cl=ffffff&w=a"
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

@@ -1,0 +1,17 @@
+# Newest first. Content supports inline Markdown (links, **bold**, *italics*).
+
+[[news]]
+date = "2026-10"
+content = "*Do VLAs Trained with Latent World Models Benefit from Object Slots?* accepted to the CoRL 2026 Workshop **Do Robots Need World Models?**"
+
+[[news]]
+date = "2026-09"
+content = "[*Back to the Familiar Future*](https://arxiv.org/abs/2606.09258) (B2FF) accepted to **CoRL 2026** 🎉"
+
+[[news]]
+date = "2026-09"
+content = "Started my M.S. in Cognitive Science at Seoul National University, joining the [Biointelligence Lab](https://bi.snu.ac.kr)."
+
+[[news]]
+date = "2026-08"
+content = "Received my B.S. in AI Software Engineering from Soongsil University."

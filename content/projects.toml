@@ -1,0 +1,21 @@
+type = "card"
+title = "Projects"
+description = "Selected engineering projects outside my main research."
+
+[[items]]
+title = "Tori — Voice-Guided Object Localization for Low-Vision Users"
+subtitle = "Capstone Design · 3-person team · Camera–projector calibration lead"
+date = "Jun 2026"
+content = """
+- Built a real-time system that localizes a voice-named object from RGB-D input and guides the user by speech and beam-projected light.
+- Implemented Gray-code structured-light camera–projector calibration with sub-pixel homography refinement, reaching 0.26 px stereo RMS.
+"""
+
+[[items]]
+title = "Stock Analytics Platform — sLM-based Investment Assistant"
+subtitle = "Capstone Design · 5-person team · RAG pipeline & sLM evaluation"
+date = "Jun 2025"
+content = """
+- Built a RAG pipeline summarizing 48 hours of per-ticker news with a locally served sLM, exposed via FastAPI.
+- Benchmarked four open-weight sLMs for summarization and sentiment, using GPT-4.1 as judge and Financial PhraseBank as ground truth.
+"""

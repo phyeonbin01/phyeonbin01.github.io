@@ -43,7 +43,7 @@ export default function VisitorMap({ script }: VisitorMapProps) {
                 <p className="text-xs text-neutral-500">Visitor map loads on the live site.</p>
             )}
             {/* The widget sizes itself to this container's width (w=a) */}
-            <div ref={containerRef} className="w-full max-w-xs overflow-hidden rounded-lg" />
+            <div ref={containerRef} className="w-full overflow-hidden rounded-lg" />
         </motion.div>
     );
 }
